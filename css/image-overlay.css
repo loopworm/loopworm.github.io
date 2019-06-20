@@ -1,0 +1,28 @@
+.overlay_image {
+  height: 20%;
+  position: relative;
+  align-items: right;
+  background-size: cover;
+}
+.overlay_image h5 {
+  background-color: #fff;
+  color: #000;
+  /*mix-blend-mode: luminosity;*/
+  position: absolute;
+
+  /*top: 50%;*/
+  /*left: 0%;*/
+  /*transform: translate(-50%, -50%);*/
+  padding: 16px;
+  border-radius: 8px;
+  font-family: cursive;
+  font-size: 1.5em;
+  margin: 0;
+  opacity: 0.4;
+}
+.overlay_image h5:last-child {
+  /*mix-blend-mode: normal;*/
+  color: #000;
+  background: #000;
+  box-shadow: 0 0 16px #000, 0 0 32px #000;
+}

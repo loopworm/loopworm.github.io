@@ -1,5 +1,5 @@
 /* ==== Google font ==== */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
 @import url('font-awesome.css');
 /* ==== overwrite bootstrap standard ==== */
 @import url('animate.css');
@@ -167,6 +167,7 @@ a:hover {
 }
 
 #main-slider .carousel .carousel-content {
+  position: relative;
   margin-top: 150px;
 }
 
