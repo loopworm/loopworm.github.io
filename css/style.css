@@ -1252,3 +1252,36 @@ a.scrollup:hover{
 .incubators img{
 	border-radius:6px;
 }
+
+.blog-title {
+  font-weight: 800;
+  margin-bottom: 40px;
+  margin-left: -15px;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 12px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container_1 {
+  padding: 2px 16px;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  padding: 12px;
+}
+
+.row .col-item {
+  padding: 12px;
+}
