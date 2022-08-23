@@ -14,6 +14,7 @@ body {
 	color:#fff;
 	background-color:#fff;
 	overflow-x:hidden;
+  padding-bottom: 22px;
 }
 
 hi,h2,h3,h4,h5,h6 {
@@ -532,6 +533,9 @@ a:hover {
 /* --- footer --- */
 .footer {
 	background:#1BBD36;
+  position:absolute;
+  bottom:0;
+  width:100%;
 	padding:15px 22px;
 }
 
