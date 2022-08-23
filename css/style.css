@@ -1168,3 +1168,163 @@ a.scrollup:hover{
 	background-color:#ddd;
 	color:#1BBD36;
 }
+
+
+/* .caption-style-1{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+} */
+
+/* .caption-style-1 div{
+  float: left;
+  padding: 0px;
+  position: relative;
+  overflow: hidden;
+} */
+
+.caption-style-1:hover .caption{
+  opacity: 1;
+}
+
+
+.caption-style-1 img{
+  margin: 0px;
+  padding: 0px;
+  width: 200px;
+  height: 200px;
+  z-index: 4;
+}
+
+
+.caption-style-1 .caption{
+  cursor: pointer;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition:all 0.45s ease-in-out;
+  -moz-transition:all 0.45s ease-in-out;
+  -o-transition:all 0.45s ease-in-out;
+  -ms-transition:all 0.45s ease-in-out;
+  transition:all 0.45s ease-in-out;
+
+}
+.caption-style-1 .blur{
+  background-color: rgba(0,0,0,0.65);
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  z-index: 5;
+  position: relative;
+}
+
+.caption-style-1 .caption-text h1{
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 16px;
+}
+.caption-style-1 .caption-text{
+  z-index: 10;
+  color: #fff;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  top:100px;
+}
+
+.caption-style-1 .caption-text p{
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.incubators {
+	padding:50px;
+}
+
+.incubators h3 {
+	margin-bottom:30px;
+	font-weight:800;
+}
+
+.incubators h4 {
+	margin-top:20px;
+	margin-bottom:20px;
+	font-weight:600;
+}
+
+.incubators img{
+	border-radius:6px;
+}
+
+.blog-title {
+  font-weight: 800;
+  margin-bottom: 40px;
+  margin-left: -15px;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 12px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container_1 {
+  padding: 2px 16px;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  padding: 12px;
+}
+
+.row .col-item {
+  padding: 12px;
+}
+
+.avatar {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+
+.avatar .image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.avatar .middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.avatar:hover .image {
+  opacity: 0.6;
+}
+
+.avatar:hover .middle {
+  opacity: 1;
+}
+
+.avatar .middle .text {
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+}
