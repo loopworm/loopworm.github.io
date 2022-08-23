@@ -1266,6 +1266,11 @@ a.scrollup:hover{
   margin-bottom: 40px;
   margin-left: -15px;
 }
+.awards-title{
+  font-weight: 800;
+  margin-bottom: 40px;
+  margin-left: -15px;
+}
 
 .card {
   /* Add shadows to create the "card" effect */
