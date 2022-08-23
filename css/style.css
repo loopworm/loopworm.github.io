@@ -531,18 +531,12 @@ a:hover {
 }
 
 /* --- footer --- */
-.footer-fixed {
+.footer{
 	background:#1BBD36;
   position:absolute;
   bottom:0;
   width:100%;
 	padding:15px 22px;
-}
-.footer {
-  background:#1BBD36;
-  bottom:0;
-  padding:15px 22px;
-
 }
 ul.social-network {
 	list-style:none;
