@@ -533,8 +533,14 @@ a:hover {
 /* --- footer --- */
 .footer{
 	background:#1BBD36;
-  position:absolute;
   bottom:0;
+  width:100%;
+	padding:15px 22px;
+}
+.footer-fixed{
+	background:#1BBD36;
+  bottom:0;
+  position:absolute;
   width:100%;
 	padding:15px 22px;
 }
